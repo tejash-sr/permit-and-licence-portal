@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPath": "/gov/officer-registry/verify",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.staff_id == 'OFC-1002')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "verified": true,
+      "staff_id": "OFC-1002",
+      "full_name": "Rashid Al Nuaimi",
+      "email": "rashid.alnuaimi@moheet.ai",
+      "agency": "DM",
+      "department": "Municipality",
+      "designation": "Senior Officer",
+      "role_status": "ACTIVE"
+    }
+  }
+}

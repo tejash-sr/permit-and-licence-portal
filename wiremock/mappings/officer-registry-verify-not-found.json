@@ -1,0 +1,12 @@
+{
+  "priority": 10,
+  "request": {
+    "method": "POST",
+    "urlPath": "/gov/officer-registry/verify"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": { "verified": false }
+  }
+}

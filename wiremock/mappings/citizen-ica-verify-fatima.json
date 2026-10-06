@@ -1,0 +1,30 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPath": "/gov/ica/verify",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.emirates_id == '784-1995-7654321-20')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "verified": true,
+      "emirates_id": "784-1995-7654321-20",
+      "email": "fatima@gmail.com",
+      "phone": "0987654321",
+      "full_name": "Fatima Al Mazrouei",
+      "nationality": "UAE",
+      "date_of_birth": "1995-09-03",
+      "gender": "Female",
+      "card_expiry_date": "03-09-2028",
+      "id_status": "ACTIVE"
+    }
+  }
+}

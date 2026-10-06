@@ -25,7 +25,7 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6 py-16">
       <div className="mb-12 text-center">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-400">Moheet Operations</p>
+        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-400">Grootan Operations</p>
         <h1 className="text-3xl font-semibold text-slate-900">Permit &amp; Licence Platform</h1>
         <p className="mt-2 text-sm text-slate-500">Choose your portal to sign in.</p>
       </div>

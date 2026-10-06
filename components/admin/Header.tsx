@@ -49,7 +49,8 @@ export function AdminHeader() {
     <header className="sticky top-0 z-30 border-b border-blue-200 bg-white/90 backdrop-blur shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5">
         <Link href="/admin/dashboard" className="flex items-center gap-2">
-          <img src="/Moheet.svg" alt="Moheet" className="h-8" />
+          <img src="/grootan-logo.webp" alt="" className="h-9 w-auto" />
+          <span className="text-lg font-semibold tracking-tight text-slate-900">Grootan</span>
         </Link>
         <div className="flex items-center gap-3 text-sm">
           <button
